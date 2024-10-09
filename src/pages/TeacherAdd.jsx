@@ -75,7 +75,6 @@ const TeacherAdd = () => {
     <div className="w-full">
       <div className="mx-auto pt-6 w-[90%] bg-white">
         <div className="flex items-center justify-between mb-[20px]">
-          <Button onClick={() => navigate(-1)} title={"Back"} />
           <h3 className="text-2xl font-bold">Add Teacher</h3>
         </div>
         <form
@@ -212,7 +211,7 @@ const TeacherAdd = () => {
               />
               <img
                 className="h-[172px] w-full object-cover"
-                src={image ? image : "https://placehold.co/600x400"}
+                src={image ? image : "https://placehold.co/400x400"}
                 alt="Placeholder"
                 height={172}
                 width={"100%"}
