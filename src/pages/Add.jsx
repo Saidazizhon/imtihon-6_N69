@@ -127,7 +127,7 @@ const Add = () => {
           </div>
 
           <div>
-            <Button type={"submit"} title={"Add Student"} />
+            <Button type={"submit"} title={"Save"} />
           </div>
         </form>
       </div>

@@ -21,7 +21,6 @@ const SingleUser = () => {
     <div className="h-full bg-gray-100">
       <div className="w-full flex items-center justify-between py-3 shadow-md">
         <div className="flex items-center gap-4">
-          <Button onClick={()=> navigate(-1)} title={"Back"}/>
           <h2 className="text-2xl font-bold">{user.firstName}</h2>
         </div>
         <Button onClick={()=>navigate(`/students/${user.id}/update`)} title={"Update Student info"} type={"button"} />

@@ -221,7 +221,7 @@ const TeacherAdd = () => {
           <div className="w-full flex justify-end">
             <Button
               type={"submit"}
-              title={updatedTeacher ? "Update Teacher" : "Add Teacher"}
+              title={updatedTeacher ? "Update Teacher" : "Save"}
             />
           </div>
         </form>
