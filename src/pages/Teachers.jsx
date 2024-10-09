@@ -82,7 +82,7 @@ const Teachers = () => {
           <img src={NoInfo} alt="No Info" className="w-40 h-30" />
           <div className="text-center mt-6">
             <p className="text-gray-700 text-2xl font-semibold">
-              No students at this time
+              No teacher at this time
             </p>
           </div>
         </div>

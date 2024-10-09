@@ -8,6 +8,8 @@ const Setting = () => {
         <div className='flex items-center justify-center'>
             <img src={NoInfo} alt="No Info" />
         </div>
+        <br />
+        <h2 className='mt-5 text-center text-2xl'>Qurilish ketmoqta</h2>
     </div>
   )
 }

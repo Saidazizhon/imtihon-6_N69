@@ -65,7 +65,6 @@ const Students = () => {
           </tbody>
         </table>
       ) : (
-        // No Students Info
         <div className="flex flex-col items-center justify-center mt-16 py-12 bg-white rounded-lg shadow-sm">
           <img src={NoInfo} alt="No Info" className="w-40 h-30" />
           <div className="text-center mt-6">
